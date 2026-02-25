@@ -1,0 +1,41 @@
+ul{
+    /*for removing dots*/
+    list-style-type: none;
+    display: flex;
+    justify-content:space-around;
+    background-color: cadetblue;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+a{font-size: 25px;
+    color:white
+   
+}
+.image{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+.v{
+    border: 4px solid rgb(10, 10, 10);
+    padding: 5px;
+}
+.i{
+    border: 4px solid rgb(173, 199, 248);
+    padding: 5px;
+}
+.k{
+    border: 4px solid rgb(235, 145, 145);
+    padding: 5px;
+}
+p{
+    color: salmon;
+    margin:40px 30px; /* (top and bottom) (left and right)*/
+}
+.footer{
+    display:flex;
+    justify-content:space-between;
+    background-color: rgb(56, 57, 59);
+    flex-wrap: wrap;
+}
